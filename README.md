@@ -42,7 +42,7 @@ class Calculator
      * @apiSuccess {integer} result The result of calculation.
      * @apiSuccessExample
      *  {
-     *  "nonce": "c65a7eeb9f7ea4db282c2eba674e3705ff8747ac"
+     *  "result": 225
      *  }
      */
     public function mySqrt()
