@@ -1,6 +1,9 @@
+<img src="https://i.ibb.co/mD1SYh0/200px.png" align="left"></img>
+
+
 # Cirno
 
-<img src="https://i.ibb.co/mD1SYh0/200px.png" style="float:left"></img>
+
 
 Cirno-php is a light-weight php api framework for rapid development, based on Flight and Medoo, with apiDoc support.
 
