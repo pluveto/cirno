@@ -1,7 +1,7 @@
 <?php
 /*
     API Parameters rules
-    Auto generated at 2020-01-22 10:23:23
+    Auto generated at 2020-01-22 11:10:55
 */
 return [
     '/auth/login/email' => [
@@ -40,12 +40,12 @@ return [
             ],
         ],
     ],
-    '/auth/logout' => [
+    '/calc/sqrt' => [
         'param' => [
-            'password' => [
-                'type' => 'string',
-                'min' => 3,
-                'max' => 19,
+            'num' => [
+                'type' => 'integer',
+                'min' => 0,
+                'max' => 200,
                 'required' => true,
             ],
         ],

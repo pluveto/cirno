@@ -78,8 +78,8 @@ function getRule($str) //str without `@apiParam `
             $type = $matches[2][0];
         }
     }
-    $in  = ["bool",    "int",     "number",  "object"];
-    $out = ["boolean", "integer", "integer", "string"];
+    $in  = ["number",  "object"];
+    $out = ["integer", "string"];
     $type = str_replace($in, $out, strtolower($type));
 
     $retBody["type"] = $type;

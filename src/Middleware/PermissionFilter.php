@@ -157,6 +157,9 @@ class PermissionFilter implements IMiddleware
                     if ($max && $number > $max) {
                         throw new BadRequestException("Parameter `$param` is expected to be less than $max. ");
                     }
+                    App::$api->request()->method == "GET" ?
+                        App::$api->request()->query[$param] = $number :
+                        App::$api->request()->data[$param] = $number;
                     break;
                 case 'string':
                     $min = array_get_if_key_exists($rules, "min", 0);
