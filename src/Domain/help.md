@@ -1,0 +1,1 @@
+[Database API](https://medoo.in/api/insert)
